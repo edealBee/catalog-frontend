@@ -1,0 +1,80 @@
+header {
+  background-color: #ffffff;
+  width: 1200px;
+  height: 70px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  box-shadow: 0 0 5px 0;
+  position: fixed;
+  top: 0;
+}
+.HeaderTitle h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgb(255, 0, 138);
+  color: linear-gradient(0deg, rgba(255, 0, 138, 1) 31%, rgba(255, 226, 242, 1) 100%);
+}
+.HeaderTitle a {
+  text-decoration: none;
+}
+.HeaderSearch {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #afafaf;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  right: 20px;
+}
+.HeaderSearch img {
+  padding: 0 2px 0 0;
+}
+.HeaderSearch input {
+  font-size: 18px;
+
+  border: none;
+  outline: none;
+}
+.HeaderForm {
+  position: relative;
+}
+.HeaderForm button {
+  background-color: rgb(255, 0, 138);
+  width: 95px;
+  height: 35px;
+  border-radius: 40px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Mulish';
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 5px 0 #999999;
+  transition: all 2s ease;
+  position: relative;
+  bottom: 2px;
+}
+.HeaderForm button:active {
+  top: 2px;
+}
+.HeaderForm #create {
+  background-color: rgb(255, 0, 138);
+  width: 150px;
+  height: 35px;
+  margin: 0 15px 0 0;
+  border-radius: 40px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Mulish';
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 5px 0 #999999;
+  transition: all 2s ease;
+  position: relative;
+  bottom: 2px;
+}

@@ -1,0 +1,36 @@
+.Post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  width: 360px;
+  height: 220px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 #ff9bee;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 10px;
+}
+.PostImage img {
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+}
+.PostImage {
+  margin: 0 5px 0 0;
+}
+.PostInfo {
+  max-width: 120px;
+  word-break: break-all;
+  margin: 0 0 0 5px;
+}
+.PostTitle h2 {
+  font-size: 17px;
+}
+.PostTitle {
+  margin: 10px 0;
+}
+.PostData {
+  margin: 10px 0;
+}

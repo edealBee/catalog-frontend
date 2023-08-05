@@ -1,0 +1,62 @@
+.Login {
+  background-color: #e2e2e2;
+  max-width: 1200px;
+  max-height: 500px;
+  padding: 100px 0;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.LoginForm {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgb(255, 0, 138);
+}
+.LoginFormTitle {
+  position: absolute;
+  top: 50px;
+}
+.LoginFormTitle h3 {
+  font-size: 22px;
+  font-family: 'Mulish';
+  color: black;
+  text-transform: uppercase;
+}
+.LoginFormInputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 10px;
+}
+.LoginFormInputsButton {
+  position: relative;
+  top: 40px;
+}
+.LoginFormInputsButton button {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: white;
+  font-family: 'Mulish';
+  font-size: 17px;
+}
+.password {
+  position: absolute;
+  top: 10px;
+}
